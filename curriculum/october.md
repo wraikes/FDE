@@ -3,6 +3,7 @@
 ~31 hours. Three reps of the same pattern, each adding one capability.
 
 ## Rep 1 — extraction + evals (~10h)
+Lessons: `lessons/01-read-the-corpus.md` -> 02 schema -> 03 ground truth -> 04 metrics
 Reading: `curriculum/reading.md` (~1h, before you start)
 Brief: `briefs/oct-01-hvac.md`
 Adds: schema-constrained output, a real hand-labeled eval set, per-field accuracy.
