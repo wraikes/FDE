@@ -144,14 +144,14 @@ The money problem the owner mentions in passing: **accessorial charges.** Detent
 layover, driver assist, lumper fees. They're often implied by the tender's terms and
 frequently never billed. He thinks it's "a few grand a month."
 
-Records: `engagements/01-brightline/data/ridgeline_tenders.jsonl` (12 tenders).
+Records: `engagements/01-brightline/data/ridgeline_tenders.jsonl` (20 tenders).
 
 **Deliverable — answer all seven questions.** Short is fine; a line or two each, except
 these three:
 
 - **Q4 (base rate):** which tenders carry accessorial exposure, and *what signal told you*?
   Then check whether the obvious keyword works, the way it failed on "warranty."
-- **Q5 (out of scope):** how many of the twelve aren't load tenders at all?
+- **Q5 (out of scope):** how many of the twenty aren't load tenders at all?
 - **Q7 (not in the document):** this is the one I'll grade hardest. What does billing an
   accessorial require that a tender email cannot contain?
 
