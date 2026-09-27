@@ -5,13 +5,20 @@ none of it is a course. If a piece takes more than 45 minutes you're reading it 
 
 Budget: ~1 hour of reading per rep, inside that rep's 10 hours.
 
+## Step zero, before any reading
+
+**Read the raw data first.** Twenty real records teach you more about what's extractable
+than any blog post, and most of the design questions become obvious once you've seen the
+mess. Reading before looking at data is how you end up guessing at numbers.
+
 ## Before Rep 1 — extraction + evals
 
 | Read | Why |
 |---|---|
 | [Building Effective AI Agents](https://www.anthropic.com/engineering/building-effective-agents) | The canonical piece. Read it for the workflow-vs-agent distinction — most client work is a workflow, and knowing when *not* to reach for an agent is half the judgment |
 | Claude docs: **structured outputs / tool use for extraction**, **prompt engineering overview** | Mechanics you'll use in the first hour |
-| Hamel Husain, *Your AI Product Needs Evals* (hamel.dev) | The single best thing written on evals. Read before you label a single record |
+| Hamel Husain, *Your AI Product Needs Evals* (hamel.dev) | The single best thing written on evals. His actual thesis is "look at your data" — do that first |
+| Claude docs: **Create strong empirical evaluations** | Task-specific metrics and grading methods. Closest thing to a how-to for the questions Rep 1 asks |
 | Anthropic cookbook — classification & eval notebooks (github.com/anthropics/anthropic-cookbook) | Working code for the shape you're about to build |
 
 ## Before Rep 2 — retrieval + tool calling
