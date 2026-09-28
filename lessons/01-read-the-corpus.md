@@ -144,6 +144,11 @@ The owner's worry, mentioned in passing: **dietary restrictions.** A missed alle
 is the thing that keeps her up at night — it's rare, it's the only mistake that can
 seriously hurt someone, and it has happened once.
 
+**The job:** turn each order email into a structured record for the production board —
+customer, pickup date, pickup time, size/servings, flavor, inscription, dietary notes.
+Same shape as Brightline. The seven questions apply to every field; dietary restrictions
+are simply the rare, high-consequence one, the way warranty was.
+
 Records: `engagements/01-brightline/data/sugarbird_orders.jsonl` (20 orders).
 
 **Deliverable — answer all seven questions.** A line or two each, except these three:
