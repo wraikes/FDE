@@ -132,27 +132,27 @@ memo, and it is the honest scope boundary of Rep 1.
 
 ---
 
-## Your turn — Ridgeline Logistics
+## Your turn — Sugarbird Bakery
 
 Different domain, same seven questions.
 
-**Ridgeline Logistics** is an 18-person freight brokerage in Memphis. Shippers email load
-tenders — "here's a load, can you cover it?" Brokers read the email, key a load record
-into the TMS, and start calling carriers. About 60 tenders a week.
+**Sugarbird Bakery** is a 6-person custom cake shop. Orders arrive by email. Someone reads
+each one and writes it on the production board: customer, pickup date and time, size,
+flavor, inscription, notes. About 20 a week.
 
-The money problem the owner mentions in passing: **accessorial charges.** Detention,
-layover, driver assist, lumper fees. They're often implied by the tender's terms and
-frequently never billed. He thinks it's "a few grand a month."
+The owner's worry, mentioned in passing: **dietary restrictions.** A missed allergy note
+is the thing that keeps her up at night — it's rare, it's the only mistake that can
+seriously hurt someone, and it has happened once.
 
-Records: `engagements/01-brightline/data/ridgeline_tenders.jsonl` (20 tenders).
+Records: `engagements/01-brightline/data/sugarbird_orders.jsonl` (20 orders).
 
-**Deliverable — answer all seven questions.** Short is fine; a line or two each, except
-these three:
+**Deliverable — answer all seven questions.** A line or two each, except these three:
 
-- **Q4 (base rate):** which tenders carry accessorial exposure, and *what signal told you*?
-  Then check whether the obvious keyword works, the way it failed on "warranty."
-- **Q5 (out of scope):** how many of the twenty aren't load tenders at all?
-- **Q7 (not in the document):** this is the one I'll grade hardest. What does billing an
-  accessorial require that a tender email cannot contain?
+- **Q4 (base rate):** which orders carry a genuine dietary risk, and *what signal told
+  you*? Then test the obvious keyword — search for "allerg" — and compare. It fails the
+  same way "warranty" did, in both directions.
+- **Q5 (out of scope):** how many of the twenty aren't orders at all?
+- **Q7 (not in the document):** graded hardest. What does safely filling a dietary
+  restriction require that an order email cannot contain?
 
 I'll score it against the method, not against a key.
